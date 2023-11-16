@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 ### Generating New Data
 - Set your `OPENAI_API_KEY` in the environment.
-- Our caching system stores previous prompts and responses. You can use our cache file ([`.cache_gpt-3.5-turbo-0613.csv`](/.cache_gpt-3.5-turbo-0613.csv)), which contains all prompts and their responses from our runs.
+- Our caching system stores previous prompts and responses. You can use our cache file, which contains all prompts and their responses from our runs. It is too big for GitHub and you will have to access it via our [GitLab](https://gitlab.ethz.ch/davjenny/llm-political-bias-attribution).
 - To generate new data, run [`main.py`](/main.py).
 - To add observables, modify [`observables.py`](/observables.py). For custom prompts, see [`prompt_builder.py`](/prompt_builder.py).
 
